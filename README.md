@@ -1,4 +1,4 @@
-# Data Warehouse & Analytics — PostgreSQL
+# End-to-End Sales Data Platform — PostgreSQL, SQL, Power BI
 
 An end-to-end data engineering and analytics project that transforms raw data into actionable business insights using PostgreSQL, SQL, and Power BI.
 
@@ -70,6 +70,22 @@ CRM / ERP CSV Files
 → Gold Layer (Star Schema Modeling)  
 → SQL Views (Analytics Layer)  
 → Power BI Dashboard (Visualization)
+
+## Project Structure
+
+project/
+├── datasets/
+├── docs/
+├── scripts/
+├── sql/
+│ ├── bronze/
+│ ├── silver/
+│ ├── gold/
+│ ├── views.sql
+│ └── analytics.sql
+├── dashboard/
+├── tests/
+└── README.md
 
 ## Project Overview
 
